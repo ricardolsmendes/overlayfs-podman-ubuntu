@@ -5,8 +5,8 @@ Shell scripts to set up [Podman container runtine](https://podman.io/),
 containers run faster and safer when powered by `overlayfs` and `crun`.
 
 These scripts are intended to set up rootless Podman (most popular way to use
-it) and run in a fresh Ubuntu environment (requires Ubuntu >= 20.04, due to
-`cgroup v2` support).
+it) and run in a fresh Ubuntu environment. Ubuntu >= 20.04 is required due to
+`cgroup v2` support.
 
 ## Environment setup
 
